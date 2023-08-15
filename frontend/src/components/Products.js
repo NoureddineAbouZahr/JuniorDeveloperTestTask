@@ -96,6 +96,10 @@ const Products = () => {
                         />
                         <h1>SKU: {product.SKU}</h1>
                         <h1>{product.Name}</h1>
+                        <h1>{product.Price} $</h1>
+                        <h1>{product.Size}</h1>
+                        <h1>{product.Dimensions}</h1>
+                        <h1>{product.Weight}</h1>
                     </div>
                 ))}
             </div>

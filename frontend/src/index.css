@@ -14,7 +14,7 @@ code {
 
 .productCard {
   width: 270px;
-  height: 200px;
+  height: fit-content;
   border-radius: 8%;
   margin: 15px;
   padding: 16px;
