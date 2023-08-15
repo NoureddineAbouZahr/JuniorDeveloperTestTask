@@ -11,3 +11,127 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.productCard {
+  width: 270px;
+  height: 200px;
+  border-radius: 8%;
+  margin: 15px;
+  padding: 16px;
+  transform: scale(100%);
+  border: solid 4px black;
+  box-shadow: 1px 4px 6px black;
+  user-select: none;
+  transition: 150ms;
+  white-space: normal;
+  word-wrap: break-word;
+}
+
+.productCard:hover {
+  background-color: rgb(121, 121, 122);
+  color: rgb(5, 5, 5);
+  transition: 150ms;
+
+}
+
+.pContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.back {
+  height: 50px;
+  width: 50px;
+  border: solid 15px rebeccapurple;
+  border-right: none;
+  border-bottom: none;
+  transform: rotate(-45deg);
+}
+
+.bb {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.delete-checkbox {
+  transform: scale(2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.action-buttons button:hover {
+  background-color: rgb(223, 221, 221);
+  transition: 200ms;
+}
+
+.action-buttons button {
+  margin: 20px;
+  padding: 8px 16px;
+  box-shadow: 2px 3px rgb(30, 29, 29);
+  outline: 3px;
+  border: solid 3px rgb(23, 23, 23);
+  font-weight: bold;
+  transform: scale(110%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.addProductForm {
+  position: relative;
+  border-radius: 8px;
+  width: 400px;
+  margin: 30px auto;
+  margin-top: 150px;
+  overflow: hidden;
+  min-height: 300px;
+  border: 5px solid rgb(240, 76, 123);
+  padding: 30px;
+
+}
+
+.inp {
+  width: 100%;
+  height: 50px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+  border-radius: 9px;
+  border: 3px solid rgb(240, 76, 123);
+}
+
+select {
+  width: 100%;
+  height: 50px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+  border-radius: 9px;
+  border: 3px solid rgb(240, 76, 123);
+}
+
+.btn {
+  display: inline-block;
+  background: rgb(240, 76, 123);
+  color: rgb(224, 231, 238);
+  border: 3px solid rgb(253, 8, 77);
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 9px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: inherit;
+  font-weight: bold;
+
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
